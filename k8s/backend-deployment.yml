@@ -1,0 +1,25 @@
+kind: Deployment
+apiVersion: apps/v1
+metadata:
+  name: backend-deployment
+  namespace: chat-app
+  labels:
+    app: backend
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: backend
+  template:
+    metadata:
+      labels:
+        app: backend
+    spec:
+      containers:
+        - name: chat-app-backend
+          image: dishantdobariya/chatapp-frontend:latest
+          ports:
+            - containerPort: 5001
+          env:
+           - name: NODE_ENV
+             value: production
