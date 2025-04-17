@@ -1,4 +1,4 @@
-[![Fork Button](https://img.shields.io/github/forks/iemafzalhassan/full-stack_chatApp?style=social)](https://github.com/iemafzalhassan/full-stack_chatApp/fork)
+
 
 
 # Real-Time Chat Application
@@ -100,9 +100,6 @@ http://localhost
 
 Follow these simple steps to get the project up and running on your local Host using docker.
 
-```bash
-git clone https://github.com/iemafzalhassan/full-stack_chatApp.git
-```
 
 ```bash
 cd full-stack_chatApp
@@ -205,15 +202,7 @@ This project is evolving, and here are a few exciting things on the horizon:
 
 ---
 
-## 📚 Project Snapshots:
 
-![Settings](frontend/public/settings.png)
-
-![chat](frontend/public/chat.png)
-
-![logout](/frontend/public/logout.png)
-
-![Login](/frontend/public/login.png)
 
 
 
