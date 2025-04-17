@@ -17,9 +17,9 @@ spec:
     spec:
       containers:
         - name: chat-app-backend
-          image: dishantdobariya/chatapp-frontend:latest
+          image: dishantdobariya/chatapp-backend:latest
           ports:
             - containerPort: 5001
           env:
-           - name: NODE_ENV
-             value: production
+            - name: NODE_ENV
+              value: production
